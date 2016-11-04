@@ -3,6 +3,7 @@ package calculator;
 public class Calculator {
 	
 	public static int add(int a, int b){
+		System.out.println("add method");
 		return a+b;
 	}
 	public static int sub(int a, int b){
